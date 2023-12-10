@@ -9,7 +9,7 @@ import NotFound from './components/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" class="bg-gradient-to-r from-rose-300 to-rose-500">
       <BrowserRouter>
      <NavBar/>
      <Routes>
