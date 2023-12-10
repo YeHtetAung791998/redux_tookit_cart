@@ -23,7 +23,7 @@ const Home = () => {
             ) :
                 error ? (<p>An error occured {error.data}</p>) :
                     (<>
-                        <h2>New Arrivals</h2>
+                        <h1 className="text-center my-5 ">New Arrivals</h1>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mx-7">
                             {data?.map((product) => (
                                 <div key={product.id} className="w-full max-w-sm bg-gradient-to-r from-blue-400 to-emerald-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
